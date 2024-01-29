@@ -10,6 +10,9 @@ then
 elif [ $age -ge 13 -a $age -le 19 ];
 then
 	echo "Teenager"
+elif [ $age -gt 60 ];
+then
+	echo "Oldage"
 else
 	echo "Adult"
 fi
